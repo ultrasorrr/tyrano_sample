@@ -1,46 +1,93 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="One Piece"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[bg storage=arlong.png time=500]
 
-メロスは激怒した。[l][r]
+アーロンが地面に突き刺さっている...[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+アーロン「人間...助けてくれたら褒美をやろう」[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_help] →助ける [endlink][r]
+[link target=*tag_leave] →去る [endlink][r]
 [s]
 
-*tag_sleep
+*tag_help
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+アーロン「ありがとう...」[l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[bg storage=arlong2.png time=500]
 
-【 BAD END 】[l][cm]
+[cm]
+
+アーロン「こっちに来い」[l][r]
+「この地図をやろう」[r]
+
+[bg storage=map.png time=500]
+
+グランドラインの地図をもらった！[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_leave
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+アーロン「下等生物が...覚えておけ」[l][r]
+
+[cm]
+
+[bg storage=tokei.png time=500]
+
+1時間後...[l][r]
+
+[cm]
+
+[bg storage=arlong.png time=500]
+
+まだ突き刺さっている...[r]
+アーロン「バカで非力で愚かな種族が...早く助けろ！」[r]
+[link target=*tag_help] →助ける [endlink][r]
+[link target=*tag_leave2] →去る [endlink][r]
+[s]
+
+*tag_leave2
+
+[cm]
+
+[bg storage=tokei.png time=500]
+
+１週間後...[l][r]
+
+[cm]
+
+[bg storage=arlong.png time=500]
+
+まだ突き刺さっている...[r]
+アーロン「助けてください...お願いします...」[r]
+[link target=*tag_help] →助ける [endlink][r]
+[link target=*tag_leave3] →去る [endlink][r]
+[s]
+
+*tag_leave3
+
+[cm]
+
+[bg storage=tokei.png time=500]
+
+１か月後...[l][r]
+
+[cm]
+
+[bg storage=arlong.png time=500]
+
+アーロンは絶命していた...[l][r]
+
+[cm]
 
 [jump target=*start]
